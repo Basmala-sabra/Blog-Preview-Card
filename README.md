@@ -16,14 +16,20 @@ HTML & CSS for the structure and styling.
 
 You can view the live version of this project at:
 
-(https://blog-page-one-indol.vercel.app/)
+(https://basmala-sabra.github.io/Blog-Preview-Card/)
 
-2- run this project locally:
-
-Clone this repository:
+OR
 
 ```bash
-git clone https://github.com/your-username/blog-page.git
+mkdir your-project-name
+```
+
+```bash
+cd your-project-name
+```
+
+```bash
+git clone https://github.com/Basmala-sabra/Blog-Preview-Card.git.
 ```
 
 ## License
