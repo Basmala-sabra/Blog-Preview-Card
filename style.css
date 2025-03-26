@@ -18,62 +18,59 @@ main {
   display: flex;
   flex-direction: column;
   border: 0.01rem solid rgb(0, 0, 0, 0.3);
-  border-radius: 3.5%;
+  border-radius: 0.9rem;
   box-shadow: 9px 8px 0 black, -1px -1px 0 black;
 }
 img {
-  width: 85%;
-  margin: 7% 3% 1% 7.5%;
-  border-radius: 1%;
+  width: 88%;
+  margin: 1rem 1rem 1.3rem 1.4rem;
 }
-.learningButton {
-  border: 8% solid #f4d04e;
+.learning-button {
+  border: 0.5rem solid #f4d04e;
   background-color: #f4d04e;
-  margin-top: 6%;
-  margin-left: 7%;
-  width: 21%;
-  height: 5%;
-  border-radius: 8.5%;
-  text-align: center;
-  padding-top: 1.4%;
+  margin-top: 0.5rem;
+  margin-left: 1.4rem;
+  width: 20.4%;
+  height: 4%;
+  border-radius: 0.37rem;
+  padding: 0.01rem 0.27rem 1rem;
   font-weight: 850;
-  font-size: 0.8rem;
+  font-size: 0.83rem;
 }
-h4 {
-  padding-left: 7%;
-  margin-top: 4%;
+.published-date {
   font-size: 0.79rem;
   font-weight: 500;
+  padding-left: 1.4rem;
+  margin-top: 0.89rem;
 }
 h1 {
   font-weight: 850;
   font-size: 1.4rem;
   width: 90%;
-  padding-left: 7%;
-  margin-top: 5%;
+  padding-left: 1.4rem;
+  margin-top: 1rem;
 }
 h1:hover {
   color: #f4d04e;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-p {
-  padding-left: 7%;
-  margin-top: 5%;
+.main-paragraph {
+  padding-left: 1.4rem;
+  margin-top: 1rem;
   width: 90%;
   font-size: 0.91rem;
   line-height: 1.4em;
   opacity: 0.72;
 }
-.userPicture {
+.user-picture {
   width: 9.4%;
 }
 .author {
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
 }
-h3 {
+.author-name {
   font-size: 0.83rem;
   font-weight: 800;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
